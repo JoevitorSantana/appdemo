@@ -6,7 +6,7 @@
   "pull_request": null,
   "commands": {},
   "last_reviewed_commit": null,
-  "stage": "AGUARDANDO_REVISAO_HUMANA",
+  "stage": "PLANEJANDO",
   "artifacts": {
     "specs/001-server-time-ptbr-red/spec.md": "E1",
     "specs/001-server-time-ptbr-red/checklists/requirements.md": "E1"
@@ -14,6 +14,15 @@
   "gates": {},
   "tasks_done": [],
   "blockers": [],
-  "human_checkpoints": {"specification_review": {"status": "pendente"}, "merge_approval": {"status": "pendente"}},
+  "human_checkpoints": {
+    "specification_review": {
+      "status": "aprovado",
+      "aprovado_em": "2026-11-22T00:00:00Z",
+      "mensagem": "aprovado"
+    },
+    "merge_approval": {
+      "status": "pendente"
+    }
+  },
   "updated_at": "2026-11-22T00:00:00Z"
 }

@@ -93,12 +93,12 @@ Projeto único Express + EJS na raiz: `app.js`, `lib/`, `views/`, `test/unit/`, 
 
 ### Tests for User Story 3 (Red)
 
-- [ ] T012 [P] [US3] Criar `test/unit/home-route-static.test.js` que importa `app` de `app.js`, sobe em `app.listen(0)` e verifica: resposta de `GET /` não contém `<script`, `setInterval` nem `<meta http-equiv="refresh"`; duas requisições com intervalo > 1 s retornam valores distintos e cada um segue o formato pt-BR (FR-006). O teste de ausência de script pode já passar (garantia de regressão); registrar isso; o de requisições sucessivas falha até T007 estar concluído
+- [X] T012 [P] [US3] Criar `test/unit/home-route-static.test.js` que importa `app` de `app.js`, sobe em `app.listen(0)` e verifica: resposta de `GET /` não contém `<script`, `setInterval` nem `<meta http-equiv="refresh"`; duas requisições com intervalo > 1 s retornam valores distintos e cada um segue o formato pt-BR (FR-006). O teste de ausência de script pode já passar (garantia de regressão); registrar isso; o de requisições sucessivas falha até T007 estar concluído
 
 ### Implementation for User Story 3
 
-- [ ] T013 [US3] Verificar em `app.js` que `new Date()` é avaliado dentro do handler de `GET /` (a cada requisição, não no carregamento do módulo) e em `views/index.ejs` que não há `<script>` nem refresh automático; corrigir apenas se houver desvio (depende de T007, T010, T012)
-- [ ] T014 [US3] Rodar `npm test` e confirmar que T012 passa (Green)
+- [X] T013 [US3] Verificar em `app.js` que `new Date()` é avaliado dentro do handler de `GET /` (a cada requisição, não no carregamento do módulo) e em `views/index.ejs` que não há `<script>` nem refresh automático; corrigir apenas se houver desvio (depende de T007, T010, T012)
+- [X] T014 [US3] Rodar `npm test` e confirmar que T012 passa (Green)
 
 **Checkpoint**: Todas as histórias funcionais
 

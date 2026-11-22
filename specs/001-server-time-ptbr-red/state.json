@@ -37,7 +37,7 @@
     },
     "E4": {
       "devolucoes": 0,
-      "fase_atual": "Phase 5 US3"
+      "fase_atual": "Phase 6 Polish"
     }
   },
   "tasks_done": [
@@ -51,7 +51,10 @@
     "T008",
     "T009",
     "T010",
-    "T011"
+    "T011",
+    "T012",
+    "T013",
+    "T014"
   ],
   "blockers": [
     "update-agent-context ausente em .specify/scripts/bash; CLAUDE.md criado manualmente pelo Arquiteto"

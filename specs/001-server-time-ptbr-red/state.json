@@ -22,7 +22,9 @@
     "specs/001-server-time-ptbr-red/contracts/home-page.md": "E2",
     "CLAUDE.md": "E2",
     "specs/001-server-time-ptbr-red/tasks.md": "E3",
-    "specs/001-server-time-ptbr-red/review-report.md": "E5"
+    "specs/001-server-time-ptbr-red/review-report.md": "E5",
+    "specs/001-server-time-ptbr-red/qa-report.md": "E6",
+    "test/acceptance/server-time.acceptance.test.js": "E6"
   },
   "gates": {
     "E2": {
@@ -51,6 +53,15 @@
         "S-02",
         "S-03"
       ]
+    },
+    "E6": {
+      "devolucoes": 0,
+      "parecer": "aprovado com ressalvas",
+      "ressalvas": [
+        "D-01 Baixa",
+        "D-02 Baixa"
+      ],
+      "revisao_testes_qa": "pendente"
     }
   },
   "tasks_done": [

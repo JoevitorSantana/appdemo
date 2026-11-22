@@ -1,0 +1,104 @@
+{
+  "feature": "001-server-time-ptbr-red",
+  "base_branch": "main",
+  "branch": "001-server-time-ptbr-red",
+  "gh_path": "gh",
+  "pull_request": "https://github.com/JoevitorSantana/appdemo/pull/1",
+  "commands": {
+    "test": "npm test",
+    "test_tz": "TZ=Asia/Tokyo npm test",
+    "lint": null,
+    "build": null
+  },
+  "last_reviewed_commit": "8e962847de4b39281cf72e656c696a9566834b18",
+  "stage": "AGUARDANDO_MERGE",
+  "artifacts": {
+    "specs/001-server-time-ptbr-red/spec.md": "E1",
+    "specs/001-server-time-ptbr-red/checklists/requirements.md": "E1",
+    "specs/001-server-time-ptbr-red/plan.md": "E2",
+    "specs/001-server-time-ptbr-red/research.md": "E2",
+    "specs/001-server-time-ptbr-red/data-model.md": "E2",
+    "specs/001-server-time-ptbr-red/quickstart.md": "E2",
+    "specs/001-server-time-ptbr-red/contracts/home-page.md": "E2",
+    "CLAUDE.md": "E2",
+    "specs/001-server-time-ptbr-red/tasks.md": "E3",
+    "specs/001-server-time-ptbr-red/review-report.md": "E5",
+    "specs/001-server-time-ptbr-red/qa-report.md": "E6",
+    "test/acceptance/server-time.acceptance.test.js": "E6"
+  },
+  "gates": {
+    "E2": {
+      "devolucoes": 0,
+      "premissas": "Vermelho #CC0000; falha de formatação exibe 'indisponível' (Arquiteto, em research.md)"
+    },
+    "E3": {
+      "devolucoes": 0
+    },
+    "E3.5": {
+      "critical": 0,
+      "cobertura_fr": "100%"
+    },
+    "E4": {
+      "devolucoes": 0,
+      "fase_atual": "concluída"
+    },
+    "E5": {
+      "devolucoes": 0,
+      "parecer": "aprovado com ressalvas",
+      "ressalvas": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "S-01",
+        "S-02",
+        "S-03"
+      ]
+    },
+    "E6": {
+      "devolucoes": 0,
+      "parecer": "aprovado com ressalvas",
+      "ressalvas": [
+        "D-01 Baixa",
+        "D-02 Baixa"
+      ],
+      "revisao_testes_qa": "aprovado com ressalvas (QA-B-01..03, QA-S-01..02)"
+    },
+    "E7": {
+      "devolucoes": 0,
+      "ci": "verde"
+    }
+  },
+  "tasks_done": [
+    "T001",
+    "T002",
+    "T003",
+    "T004",
+    "T005",
+    "T006",
+    "T007",
+    "T008",
+    "T009",
+    "T010",
+    "T011",
+    "T012",
+    "T013",
+    "T014",
+    "T015",
+    "T016",
+    "T017"
+  ],
+  "blockers": [
+    "update-agent-context ausente em .specify/scripts/bash; CLAUDE.md criado manualmente pelo Arquiteto"
+  ],
+  "human_checkpoints": {
+    "specification_review": {
+      "status": "aprovado",
+      "aprovado_em": "2026-11-22T00:00:00Z",
+      "mensagem": "aprovado"
+    },
+    "merge_approval": {
+      "status": "pendente"
+    }
+  },
+  "updated_at": "2026-11-22T00:00:00Z"
+}

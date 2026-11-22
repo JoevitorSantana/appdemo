@@ -28,8 +28,8 @@ Projeto único Express + EJS na raiz: `app.js`, `lib/`, `views/`, `test/unit/`, 
 
 **Purpose**: Estrutura de diretórios para o novo código e os testes
 
-- [ ] T001 [P] Criar o diretório `lib/` na raiz para receber `lib/server-time.js` (arquivo criado em T006); nenhuma dependência nova em `package.json`
-- [ ] T002 [P] Criar o diretório `test/unit/` (os testes unitários da feature ficam aqui; manter `test/app.test.js` intacto)
+- [X] T001 [P] Criar o diretório `lib/` na raiz para receber `lib/server-time.js` (arquivo criado em T006); nenhuma dependência nova em `package.json`
+- [X] T002 [P] Criar o diretório `test/unit/` (os testes unitários da feature ficam aqui; manter `test/app.test.js` intacto)
 
 ---
 
@@ -39,7 +39,7 @@ Projeto único Express + EJS na raiz: `app.js`, `lib/`, `views/`, `test/unit/`, 
 
 **CRITICAL**: Nenhuma história começa antes desta fase
 
-- [ ] T003 Executar `npm test` e confirmar que o teste existente `test/app.test.js` passa (linha de base), sem modificar `app.js` nem `views/index.ejs`
+- [X] T003 Executar `npm test` e confirmar que o teste existente `test/app.test.js` passa (linha de base), sem modificar `app.js` nem `views/index.ejs`
 
 **Checkpoint**: Base verde; histórias podem começar
 

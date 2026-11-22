@@ -37,10 +37,14 @@
     },
     "E4": {
       "devolucoes": 0,
-      "fase_atual": "Phase 1 Setup + Phase 2 Foundational"
+      "fase_atual": "Phase 3 US1"
     }
   },
-  "tasks_done": [],
+  "tasks_done": [
+    "T001",
+    "T002",
+    "T003"
+  ],
   "blockers": [
     "update-agent-context ausente em .specify/scripts/bash; CLAUDE.md criado manualmente pelo Arquiteto"
   ],

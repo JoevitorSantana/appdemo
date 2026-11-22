@@ -4,16 +4,34 @@
   "branch": "001-server-time-ptbr-red",
   "gh_path": "gh",
   "pull_request": null,
-  "commands": {},
+  "commands": {
+    "test": "npm test",
+    "test_tz": "TZ=Asia/Tokyo npm test",
+    "lint": null,
+    "build": null
+  },
   "last_reviewed_commit": null,
-  "stage": "PLANEJANDO",
+  "stage": "CRIANDO_TAREFAS",
   "artifacts": {
     "specs/001-server-time-ptbr-red/spec.md": "E1",
-    "specs/001-server-time-ptbr-red/checklists/requirements.md": "E1"
+    "specs/001-server-time-ptbr-red/checklists/requirements.md": "E1",
+    "specs/001-server-time-ptbr-red/plan.md": "E2",
+    "specs/001-server-time-ptbr-red/research.md": "E2",
+    "specs/001-server-time-ptbr-red/data-model.md": "E2",
+    "specs/001-server-time-ptbr-red/quickstart.md": "E2",
+    "specs/001-server-time-ptbr-red/contracts/home-page.md": "E2",
+    "CLAUDE.md": "E2"
   },
-  "gates": {},
+  "gates": {
+    "E2": {
+      "devolucoes": 0,
+      "premissas": "Vermelho #CC0000; falha de formatação exibe 'indisponível' (Arquiteto, em research.md)"
+    }
+  },
   "tasks_done": [],
-  "blockers": [],
+  "blockers": [
+    "update-agent-context ausente em .specify/scripts/bash; CLAUDE.md criado manualmente pelo Arquiteto"
+  ],
   "human_checkpoints": {
     "specification_review": {
       "status": "aprovado",

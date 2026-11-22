@@ -10,8 +10,8 @@
     "lint": null,
     "build": null
   },
-  "last_reviewed_commit": null,
-  "stage": "REVISANDO",
+  "last_reviewed_commit": "8e962847de4b39281cf72e656c696a9566834b18",
+  "stage": "TESTANDO",
   "artifacts": {
     "specs/001-server-time-ptbr-red/spec.md": "E1",
     "specs/001-server-time-ptbr-red/checklists/requirements.md": "E1",
@@ -21,7 +21,8 @@
     "specs/001-server-time-ptbr-red/quickstart.md": "E2",
     "specs/001-server-time-ptbr-red/contracts/home-page.md": "E2",
     "CLAUDE.md": "E2",
-    "specs/001-server-time-ptbr-red/tasks.md": "E3"
+    "specs/001-server-time-ptbr-red/tasks.md": "E3",
+    "specs/001-server-time-ptbr-red/review-report.md": "E5"
   },
   "gates": {
     "E2": {
@@ -38,6 +39,18 @@
     "E4": {
       "devolucoes": 0,
       "fase_atual": "concluída"
+    },
+    "E5": {
+      "devolucoes": 0,
+      "parecer": "aprovado com ressalvas",
+      "ressalvas": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "S-01",
+        "S-02",
+        "S-03"
+      ]
     }
   },
   "tasks_done": [

@@ -3,7 +3,7 @@
   "base_branch": "main",
   "branch": "001-server-time-ptbr-red",
   "gh_path": "gh",
-  "pull_request": null,
+  "pull_request": "https://github.com/JoevitorSantana/appdemo/pull/1",
   "commands": {
     "test": "npm test",
     "test_tz": "TZ=Asia/Tokyo npm test",
@@ -11,7 +11,7 @@
     "build": null
   },
   "last_reviewed_commit": "8e962847de4b39281cf72e656c696a9566834b18",
-  "stage": "PUBLICANDO_PR",
+  "stage": "AGUARDANDO_MERGE",
   "artifacts": {
     "specs/001-server-time-ptbr-red/spec.md": "E1",
     "specs/001-server-time-ptbr-red/checklists/requirements.md": "E1",
@@ -62,6 +62,10 @@
         "D-02 Baixa"
       ],
       "revisao_testes_qa": "aprovado com ressalvas (QA-B-01..03, QA-S-01..02)"
+    },
+    "E7": {
+      "devolucoes": 0,
+      "ci": "verde"
     }
   },
   "tasks_done": [

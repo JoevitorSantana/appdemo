@@ -106,9 +106,9 @@ Projeto único Express + EJS na raiz: `app.js`, `lib/`, `views/`, `test/unit/`, 
 
 ## Phase 6: Polish & Cross-Cutting Concerns
 
-- [ ] T015 [P] Atualizar `README.md` documentando que a página inicial exibe a data/hora do servidor em pt-BR (`dd/mm/aaaa hh:mm:ss`), no fuso America/Sao_Paulo, em vermelho e sem atualização automática, e como rodar `npm test` e `TZ=Asia/Tokyo npm test`
-- [ ] T016 Rodar `npm test` e `TZ=Asia/Tokyo npm test` completos (SC-002) e confirmar que `test/app.test.js` continua passando
-- [ ] T017 Executar a validação manual de `specs/001-server-time-ptbr-red/quickstart.md` (`npm start`, conferir formato, cor, estabilidade 10 s, `TZ=Asia/Tokyo npm start`, `curl`) e conferir que não há dependências novas em `package.json`
+- [X] T015 [P] Atualizar `README.md` documentando que a página inicial exibe a data/hora do servidor em pt-BR (`dd/mm/aaaa hh:mm:ss`), no fuso America/Sao_Paulo, em vermelho e sem atualização automática, e como rodar `npm test` e `TZ=Asia/Tokyo npm test`
+- [X] T016 Rodar `npm test` e `TZ=Asia/Tokyo npm test` completos (SC-002) e confirmar que `test/app.test.js` continua passando
+- [X] T017 Executar a validação manual de `specs/001-server-time-ptbr-red/quickstart.md` (`npm start`, conferir formato, cor, estabilidade 10 s, `TZ=Asia/Tokyo npm start`, `curl`) e conferir que não há dependências novas em `package.json`
 
 ---
 

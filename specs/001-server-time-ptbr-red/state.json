@@ -11,7 +11,7 @@
     "build": null
   },
   "last_reviewed_commit": null,
-  "stage": "IMPLEMENTANDO",
+  "stage": "REVISANDO",
   "artifacts": {
     "specs/001-server-time-ptbr-red/spec.md": "E1",
     "specs/001-server-time-ptbr-red/checklists/requirements.md": "E1",
@@ -37,7 +37,7 @@
     },
     "E4": {
       "devolucoes": 0,
-      "fase_atual": "Phase 6 Polish"
+      "fase_atual": "concluída"
     }
   },
   "tasks_done": [
@@ -54,7 +54,10 @@
     "T011",
     "T012",
     "T013",
-    "T014"
+    "T014",
+    "T015",
+    "T016",
+    "T017"
   ],
   "blockers": [
     "update-agent-context ausente em .specify/scripts/bash; CLAUDE.md criado manualmente pelo Arquiteto"

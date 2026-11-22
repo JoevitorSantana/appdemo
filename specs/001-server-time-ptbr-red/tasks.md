@@ -74,12 +74,12 @@ Projeto único Express + EJS na raiz: `app.js`, `lib/`, `views/`, `test/unit/`, 
 
 ### Tests for User Story 2 (Red)
 
-- [ ] T009 [P] [US2] Criar `test/unit/index-view-style.test.js` que renderiza `views/index.ejs` com `ejs.renderFile` (valor de exemplo em `serverTime`) e verifica: span com `id="server-time"` e `class="server-time"`; `<style>` com `.server-time` e `color: #CC0000`; nenhuma outra regra define vermelho; título e rótulo fora do span. Rodar `npm test` e confirmar que falha
+- [X] T009 [P] [US2] Criar `test/unit/index-view-style.test.js` que renderiza `views/index.ejs` com `ejs.renderFile` (valor de exemplo em `serverTime`) e verifica: span com `id="server-time"` e `class="server-time"`; `<style>` com `.server-time` e `color: #CC0000`; nenhuma outra regra define vermelho; título e rótulo fora do span. Rodar `npm test` e confirmar que falha
 
 ### Implementation for User Story 2
 
-- [ ] T010 [US2] Alterar `views/index.ejs`: adicionar `<style>` inline no `<head>` com `.server-time { color: #CC0000; }` e `class="server-time"` no `<span id="server-time">`, mantendo `<%= serverTime %>` escapado e o id (depende de T009)
-- [ ] T011 [US2] Rodar `npm test` e confirmar que T009 e demais testes passam (Green)
+- [X] T010 [US2] Alterar `views/index.ejs`: adicionar `<style>` inline no `<head>` com `.server-time { color: #CC0000; }` e `class="server-time"` no `<span id="server-time">`, mantendo `<%= serverTime %>` escapado e o id (depende de T009)
+- [X] T011 [US2] Rodar `npm test` e confirmar que T009 e demais testes passam (Green)
 
 **Checkpoint**: US1 e US2 funcionam de forma independente
 

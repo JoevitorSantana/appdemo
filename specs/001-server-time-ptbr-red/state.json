@@ -11,7 +11,7 @@
     "build": null
   },
   "last_reviewed_commit": null,
-  "stage": "CRIANDO_TAREFAS",
+  "stage": "IMPLEMENTANDO",
   "artifacts": {
     "specs/001-server-time-ptbr-red/spec.md": "E1",
     "specs/001-server-time-ptbr-red/checklists/requirements.md": "E1",
@@ -20,12 +20,24 @@
     "specs/001-server-time-ptbr-red/data-model.md": "E2",
     "specs/001-server-time-ptbr-red/quickstart.md": "E2",
     "specs/001-server-time-ptbr-red/contracts/home-page.md": "E2",
-    "CLAUDE.md": "E2"
+    "CLAUDE.md": "E2",
+    "specs/001-server-time-ptbr-red/tasks.md": "E3"
   },
   "gates": {
     "E2": {
       "devolucoes": 0,
       "premissas": "Vermelho #CC0000; falha de formatação exibe 'indisponível' (Arquiteto, em research.md)"
+    },
+    "E3": {
+      "devolucoes": 0
+    },
+    "E3.5": {
+      "critical": 0,
+      "cobertura_fr": "100%"
+    },
+    "E4": {
+      "devolucoes": 0,
+      "fase_atual": "Phase 1 Setup + Phase 2 Foundational"
     }
   },
   "tasks_done": [],

@@ -1,0 +1,14 @@
+{
+  "name": "appdemo",
+  "version": "1.0.0",
+  "description": "Aplicação de exemplo para a Fábrica de Software Agêntica",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}
